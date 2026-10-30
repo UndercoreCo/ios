@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2443" height="2443" viewBox="0 0 2443 2443"><g transform="translate(0 0)"><path d="M2443 0H0V2443H2443V0Z" fill="url(#paint0_linear_57_109)" />
+<defs>
+<linearGradient id="paint0_linear_57_109" x1="286.289" y1="190.859" x2="2147.17" y2="2266.46" gradientUnits="userSpaceOnUse">
+<stop stop-color="#087BF3" />
+<stop offset="0.34" stop-color="#063A98" />
+<stop offset="0.68" stop-color="#071C63" />
+<stop offset="1" stop-color="#552BFF" />
+</linearGradient>
+</defs>
+</g><g transform="translate(0 424)"><path d="M-993 532.602C-396.46 498.856 -130.162 0 944 0C2018.16 0 2284.46 498.856 2881 532.602V1231H-993V532.602Z" fill="url(#paint0_linear_57_110)" />
+<defs>
+<linearGradient id="paint0_linear_57_110" x1="-536.822" y1="183.403" x2="930.12" y2="2040.78" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0478F5" />
+<stop offset="0.52" stop-color="#139BFA" />
+<stop offset="1" stop-color="#5550FF" />
+</linearGradient>
+</defs>
+</g><g transform="translate(0 752)"><path d="M-1286 870.842C-460.04 804.038 -8.88315 0 1224 0C2456.88 0 2908.04 804.038 3734 870.842V1691.58H-1286V870.842Z" fill="url(#paint0_linear_57_111)" />
+<defs>
+<linearGradient id="paint0_linear_57_111" x1="-437.097" y1="146.731" x2="1567.26" y2="2364.63" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00A8F4" />
+<stop offset="0.48" stop-color="#25E1E8" />
+<stop offset="1" stop-color="#6169FF" />
+</linearGradient>
+</defs>
+</g><g transform="translate(0 1104)"><path d="M-1198 894.428C-386.293 810.948 163.09 0 1117.5 0C2071.91 0 2621.29 810.948 3433 894.428V1416.77H-1198V894.428Z" fill="url(#paint0_linear_57_112)" />
+<defs>
+<linearGradient id="paint0_linear_57_112" x1="-129.965" y1="119.257" x2="1356.77" y2="1924.66" gradientUnits="userSpaceOnUse">
+<stop stop-color="#55D8F3" />
+<stop offset="0.48" stop-color="#8AF1EF" />
+<stop offset="1" stop-color="#72A9FF" />
+</linearGradient>
+</defs>
+</g><g transform="translate(0 1654)"><path d="M-99.8811 820.048C482.674 764.639 893.23 0 1449.71 0C2006.2 0 2416.76 764.639 2999.31 820.048C3111.05 830.676 3009.74 954.146 2999.31 1039.47C2887.18 1956.44 12.248 1956.44 -99.8811 1039.47C-110.314 954.146 -211.625 830.676 -99.8811 820.048Z" fill="url(#paint0_linear_57_114)" />
+<defs>
+<linearGradient id="paint0_linear_57_114" x1="948.718" y1="77.5721" x2="1649.51" y2="1134.02" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" />
+<stop offset="1" stop-color="#C9EBF8" />
+</linearGradient>
+</defs>
+</g></svg>

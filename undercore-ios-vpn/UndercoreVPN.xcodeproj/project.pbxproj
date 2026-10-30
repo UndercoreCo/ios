@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+"classes" = {
+
+};
+"objectVersion" = "60";
+"archiveVersion" = "1";
+"objects" = {
+"D1000000000000000000000C" = {
+"fileRef" = "D2000000000000000000000C";
+"isa" = "PBXBuildFile";
+};
+"4E0BDEAE8A61996F911560FD" = {
+"fileRef" = "0FC32E58BC675A272FFCA1AF";
+"isa" = "PBXBuildFile";
+};
+"E3000000000000000000000D" = {
+"path" = "Services/AccountManagementChecks.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"D2000000000000000000000B" = {
+"path" = "Features/Articles/ArticleCarouselView.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E30000000000000000000002" = {
+"path" = "DesignSystem/StableCards.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"56370345378370A3A338813B" = {
+"path" = "Features/ScreenState.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"D10000000000000000000001" = {
+"fileRef" = "D20000000000000000000001";
+"isa" = "PBXBuildFile";
+};
+"E40000000000000000000001" = {
+"fileRef" = "E30000000000000000000001";
+"isa" = "PBXBuildFile";
+};
+"C10000000000000000000004" = {
+"fileRef" = "C20000000000000000000004";
+"isa" = "PBXBuildFile";
+};
+"B00000000000000000000002" = {
+"isa" = "XCSwiftPackageProductDependency";
+"package" = "B00000000000000000000003";
+"productName" = "UndercoreCore";
+};
+"C20000000000000000000003" = {
+"fileRef" = "C10000000000000000000003";
+"isa" = "PBXBuildFile";
+};
+"E1E23D068517CBC4E87DD74F" = {
+"path" = "Services/CaptchaViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"B3F887F1D9C9A7E89FF94477" = {
+"path" = "Features/Auth/VerificationViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E30000000000000000000008" = {
+"path" = "App/SceneLifecyclePreview.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E40000000000000000000007" = {
+"fileRef" = "E30000000000000000000007";
+"isa" = "PBXBuildFile";
+};
+"E4000000000000000000000C" = {
+"fileRef" = "E3000000000000000000000C";
+"isa" = "PBXBuildFile";
+};
+"A0000000000000000000000F" = {
+"isa" = "XCBuildConfiguration";
+"buildSettings" = {
+"CODE_SIGN_ENTITLEMENTS" = "Config/App.entitlements";
+"MARKETING_VERSION" = "0.1";
+"DEVELOPMENT_TEAM" = "5XU62DD2N8";
+"APS_ENVIRONMENT" = "development";
+"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.utilities";
+"PRODUCT_BUNDLE_IDENTIFIER" = "ru.undercore.ios.vpn";
+"INFOPLIST_KEY_CFBundleDisplayName" = "Undercore VPN";
+"TARGETED_DEVICE_FAMILY" = "1,2";
+"CODE_SIGN_STYLE" = "Automatic";
+"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+"SDKROOT" = "iphoneos";
+"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks");
+"SWIFT_VERSION" = "5.0";
+"PRODUCT_NAME" = "$(TARGET_NAME)";
+"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+"APNS_ENVIRONMENT" = "sandbox";
+"CLANG_ENABLE_OBJC_WEAK" = "YES";
+"INFOPLIST_FILE" = "Config/App-Info.plist";
+"GENERATE_INFOPLIST_FILE" = "NO";
+"PRODUCT_MODULE_NAME" = "UndercoreVPN";
+"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) UNDERCORE_VPN";
+};
+"name" = "Debug";
+};
+"F60000000000000000000003" = {
+"isa" = "XCRemoteSwiftPackageReference";
+"repositoryURL" = "https://github.com/airbnb/lottie-spm.git";
+"requirement" = {
+"kind" = "exactVersion";
+"version" = "4.6.1";
+};
+};
+"A00000000000000000000004" = {
+"path" = "UndercoreVPN.app";
+"isa" = "PBXFileReference";
+"includeInIndex" = "0";
+"explicitFileType" = "wrapper.application";
+"sourceTree" = "BUILT_PRODUCTS_DIR";
+};
+"92A634AF0FE6441C8B89A6A5" = {
+"fileRef" = "9BB4123567EB25BF6F2B4794";
+"isa" = "PBXBuildFile";
+};
+"9BB4123567EB25BF6F2B4794" = {
+"path" = "App/AppCoordinator.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"C277BF9B262B8C7FABE5CE30" = {
+"fileRef" = "C817D245A48D768A1ADC94F8";
+"isa" = "PBXBuildFile";
+};
+"D1000000000000000000000B" = {
+"fileRef" = "D2000000000000000000000B";
+"isa" = "PBXBuildFile";
+};
+"E3000000000000000000000C" = {
+"path" = "Features/Profile/AccountDeletionViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"F60000000000000000000002" = {
+"isa" = "XCSwiftPackageProductDependency";
+"package" = "F60000000000000000000003";
+"productName" = "Lottie";
+};
+"D2000000000000000000000A" = {
+"path" = "Features/Articles/ArticlesViewModel.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E30000000000000000000001" = {
+"path" = "Features/Profile/MessengerConnectionsViewModel.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E30000000000000000000007" = {
+"path" = "App/AppPreview.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E40000000000000000000006" = {
+"fileRef" = "E30000000000000000000006";
+"isa" = "PBXBuildFile";
+};
+"C10000000000000000000003" = {
+"path" = "Assets.xcassets";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "folder.assetcatalog";
+"sourceTree" = "<group>";
+};
+"E4000000000000000000000B" = {
+"fileRef" = "E3000000000000000000000B";
+"isa" = "PBXBuildFile";
+};
+"B00000000000000000000001" = {
+"isa" = "PBXBuildFile";
+"productRef" = "B00000000000000000000002";
+};
+"29099355179AD30A818F6F2E" = {
+"fileRef" = "A33B1CB4400AF77E905E43DA";
+"isa" = "PBXBuildFile";
+};
+"3B51542E6CC14EADBC758B97" = {
+"fileRef" = "8DE7FA3987D8074AF372BC7D";
+"isa" = "PBXBuildFile";
+};
+"C20000000000000000000002" = {
+"fileRef" = "C10000000000000000000002";
+"isa" = "PBXBuildFile";
+};
+"742B9167994FDA73B88ACA02" = {
+"fileRef" = "963580F4B31CFB82F5A97E34";
+"isa" = "PBXBuildFile";
+};
+"C817D245A48D768A1ADC94F8" = {
+"path" = "App/AppConfiguration.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"A0000000000000000000000E" = {
+"defaultConfigurationIsVisible" = "0";
+"defaultConfigurationName" = "Release";
+"isa" = "XCConfigurationList";
+"buildConfigurations" = ("A00000000000000000000011", "A00000000000000000000012");
+};
+"46508BDD9EE70D5DE19C3478" = {
+"fileRef" = "E1C0B7176178B015A70EA482";
+"isa" = "PBXBuildFile";
+};
+"A00000000000000000000009" = {
+"buildActionMask" = "2147483647";
+"isa" = "PBXFrameworksBuildPhase";
+"files" = ("B00000000000000000000001", "F60000000000000000000001", "C0E5F9760D4537FA840D2421");
+"runOnlyForDeploymentPostprocessing" = "0";
+};
+"A00000000000000000000003" = {
+"path" = "Info.plist";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "text.plist.xml";
+"sourceTree" = "<group>";
+};
+"D1000000000000000000000A" = {
+"fileRef" = "D2000000000000000000000A";
+"isa" = "PBXBuildFile";
+};
+"E3000000000000000000000B" = {
+"path" = "Features/Profile/AccountDeletionViewModel.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"F60000000000000000000001" = {
+"isa" = "PBXBuildFile";
+"productRef" = "F60000000000000000000002";
+};
+"E30000000000000000000006" = {
+"path" = "App/SceneDelegate.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E4000000000000000000000A" = {
+"fileRef" = "E3000000000000000000000A";
+"isa" = "PBXBuildFile";
+};
+"8DE7FA3987D8074AF372BC7D" = {
+"path" = "Features/Auth/AuthViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E40000000000000000000005" = {
+"fileRef" = "E30000000000000000000005";
+"isa" = "PBXBuildFile";
+};
+"C10000000000000000000002" = {
+"path" = "Features/Transfer/QRCodeViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"2C7C78FD343474A962F07E24" = {
+"fileRef" = "2B674A6250D54C0C7FD86CE2";
+"isa" = "PBXBuildFile";
+};
+"A00000000000000000000012" = {
+"isa" = "XCBuildConfiguration";
+"buildSettings" = {
+"CLANG_WARN_SUSPICIOUS_MOVE" = "YES";
+"GCC_WARN_UNDECLARED_SELECTOR" = "YES";
+"SWIFT_COMPILATION_MODE" = "wholemodule";
+"CLANG_WARN__DUPLICATE_METHOD_MATCH" = "YES";
+"CLANG_WARN_INFINITE_RECURSION" = "YES";
+"DEAD_CODE_STRIPPING" = "YES";
+"CLANG_WARN_BOOL_CONVERSION" = "YES";
+"CLANG_WARN_UNREACHABLE_CODE" = "YES";
+"ENABLE_STRICT_OBJC_MSGSEND" = "YES";
+"CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING" = "YES";
+"CLANG_WARN_STRICT_PROTOTYPES" = "YES";
+"CLANG_WARN_ENUM_CONVERSION" = "YES";
+"GCC_WARN_64_TO_32_BIT_CONVERSION" = "YES";
+"CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" = "YES";
+"STRING_CATALOG_GENERATE_SYMBOLS" = "YES";
+"GCC_WARN_UNINITIALIZED_AUTOS" = "YES";
+"CLANG_WARN_EMPTY_BODY" = "YES";
+"GCC_WARN_ABOUT_RETURN_TYPE" = "YES";
+"CLANG_WARN_COMMA" = "YES";
+"GCC_WARN_UNUSED_VARIABLE" = "YES";
+"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+"CLANG_WARN_RANGE_LOOP_ANALYSIS" = "YES";
+"CLANG_ENABLE_MODULES" = "YES";
+"GCC_NO_COMMON_BLOCKS" = "YES";
+"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+"CLANG_WARN_INT_CONVERSION" = "YES";
+"CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS" = "YES";
+"CLANG_WARN_CONSTANT_CONVERSION" = "YES";
+"CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED" = "YES";
+"CLANG_WARN_NON_LITERAL_NULL_CONVERSION" = "YES";
+"GCC_WARN_UNUSED_FUNCTION" = "YES";
+"CLANG_WARN_OBJC_LITERAL_CONVERSION" = "YES";
+"CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF" = "YES";
+};
+"name" = "Release";
+};
+"C20000000000000000000001" = {
+"fileRef" = "C10000000000000000000001";
+"isa" = "PBXBuildFile";
+};
+"F60000000000000000000007" = {
+"path" = "Resources/LaunchScreen.storyboard";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "file.storyboard";
+"sourceTree" = "<group>";
+};
+"A0000000000000000000000D" = {
+"defaultConfigurationIsVisible" = "0";
+"defaultConfigurationName" = "Release";
+"isa" = "XCConfigurationList";
+"buildConfigurations" = ("A0000000000000000000000F", "A00000000000000000000010");
+};
+"A00000000000000000000008" = {
+"buildActionMask" = "2147483647";
+"isa" = "PBXSourcesBuildPhase";
+"files" = ("D1000000000000000000000A", "D1000000000000000000000B", "D1000000000000000000000C", "D10000000000000000000001", "C10000000000000000000005", "C10000000000000000000004", "C20000000000000000000002", "C20000000000000000000001", "E40000000000000000000001", "E40000000000000000000002", "E40000000000000000000003", "E40000000000000000000009", "E4000000000000000000000A", "E4000000000000000000000B", "E4000000000000000000000C", "E4000000000000000000000D", "E40000000000000000000008", "E40000000000000000000007", "E40000000000000000000006", "E40000000000000000000005", "E40000000000000000000004", "C277BF9B262B8C7FABE5CE30", "92A634AF0FE6441C8B89A6A5", "46508BDD9EE70D5DE19C3478", "00CD02085BB433E4466EF91F", "C531216D6149BF240E5A477C", "3B51542E6CC14EADBC758B97", "F19529095BAFC244D474EB64", "D3FA2426BE100E560EBE1DC9", "FBB754FFB79117353199E0FC", "29099355179AD30A818F6F2E", "2C7C78FD343474A962F07E24", "8AB245D673FC4D784071A103", "4E0BDEAE8A61996F911560FD", "773C18A30BD0FA6919BDACA3", "1F5BFF14AC928ACBEA3A8A95", "1405EA9FE38A2552422DB4A4", "742B9167994FDA73B88ACA02", "707DCDC7CE83C5D1AD3204C0", "1442BEC6E6EE0B94CB04A1D5", "A8293F5C5A11D62A373DB07D", "2ADA1D9C51AE07420CD2BD14");
+"runOnlyForDeploymentPostprocessing" = "0";
+};
+"F19529095BAFC244D474EB64" = {
+"fileRef" = "FD7A792819EB94B685AC9F6D";
+"isa" = "PBXBuildFile";
+};
+"00CD02085BB433E4466EF91F" = {
+"fileRef" = "EE204C8E8D4485DF4881A7A0";
+"isa" = "PBXBuildFile";
+};
+"5E5F20D84EF787CBFD57D061" = {
+"path" = "DesignSystem/Theme.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"1405EA9FE38A2552422DB4A4" = {
+"fileRef" = "EE774C423CFC0030304EC9CA";
+"isa" = "PBXBuildFile";
+};
+"E3000000000000000000000A" = {
+"path" = "Features/Auth/PasswordRecoveryViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"F60000000000000000000006" = {
+"fileRef" = "F60000000000000000000007";
+"isa" = "PBXBuildFile";
+};
+"E30000000000000000000005" = {
+"path" = "DesignSystem/OfflineBannerView.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"C531216D6149BF240E5A477C" = {
+"fileRef" = "5E5F20D84EF787CBFD57D061";
+"isa" = "PBXBuildFile";
+};
+"E40000000000000000000004" = {
+"fileRef" = "E30000000000000000000004";
+"isa" = "PBXBuildFile";
+};
+"AA44220260A696DB4C797187" = {
+"path" = "Features/Auth/VerificationViewModel.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"C10000000000000000000001" = {
+"path" = "Features/Profile/ProfileViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"2B674A6250D54C0C7FD86CE2" = {
+"path" = "Features/Configurations/ConfigurationsViewModel.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"A00000000000000000000011" = {
+"isa" = "XCBuildConfiguration";
+"buildSettings" = {
+"CLANG_WARN_SUSPICIOUS_MOVE" = "YES";
+"GCC_WARN_UNDECLARED_SELECTOR" = "YES";
+"CLANG_WARN__DUPLICATE_METHOD_MATCH" = "YES";
+"CLANG_WARN_INFINITE_RECURSION" = "YES";
+"DEAD_CODE_STRIPPING" = "YES";
+"ENABLE_TESTABILITY" = "YES";
+"CLANG_WARN_BOOL_CONVERSION" = "YES";
+"CLANG_WARN_UNREACHABLE_CODE" = "YES";
+"ENABLE_STRICT_OBJC_MSGSEND" = "YES";
+"CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING" = "YES";
+"CLANG_WARN_STRICT_PROTOTYPES" = "YES";
+"CLANG_WARN_ENUM_CONVERSION" = "YES";
+"GCC_WARN_64_TO_32_BIT_CONVERSION" = "YES";
+"CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" = "YES";
+"STRING_CATALOG_GENERATE_SYMBOLS" = "YES";
+"GCC_WARN_UNINITIALIZED_AUTOS" = "YES";
+"CLANG_WARN_EMPTY_BODY" = "YES";
+"GCC_WARN_ABOUT_RETURN_TYPE" = "YES";
+"CLANG_WARN_COMMA" = "YES";
+"GCC_WARN_UNUSED_VARIABLE" = "YES";
+"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+"CLANG_WARN_RANGE_LOOP_ANALYSIS" = "YES";
+"CLANG_ENABLE_MODULES" = "YES";
+"GCC_NO_COMMON_BLOCKS" = "YES";
+"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+"CLANG_WARN_INT_CONVERSION" = "YES";
+"CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS" = "YES";
+"CLANG_WARN_CONSTANT_CONVERSION" = "YES";
+"ONLY_ACTIVE_ARCH" = "YES";
+"CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED" = "YES";
+"CLANG_WARN_NON_LITERAL_NULL_CONVERSION" = "YES";
+"GCC_WARN_UNUSED_FUNCTION" = "YES";
+"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+"CLANG_WARN_OBJC_LITERAL_CONVERSION" = "YES";
+"CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF" = "YES";
+};
+"name" = "Debug";
+};
+"FD7A792819EB94B685AC9F6D" = {
+"path" = "Features/Auth/AuthViewModel.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"707DCDC7CE83C5D1AD3204C0" = {
+"fileRef" = "AA42FB16612B26762C4EBEAF";
+"isa" = "PBXBuildFile";
+};
+"A33B1CB4400AF77E905E43DA" = {
+"path" = "Features/Configurations/ConfigurationsViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"A0000000000000000000000C" = {
+"buildConfigurationList" = "A0000000000000000000000E";
+"packageReferences" = ("B00000000000000000000003", "F60000000000000000000003", "5A49227B09F0D861A4270350", "0AF36E944EAB810C0159212E");
+"targets" = ("A0000000000000000000000B", "8C5A3969CBFD641050CBEDD9");
+"developmentRegion" = "ru";
+"knownRegions" = ("ru", "en", "Base");
+"isa" = "PBXProject";
+"compatibilityVersion" = "Xcode 14.0";
+"productRefGroup" = "A00000000000000000000007";
+"projectDirPath" = "";
+"attributes" = {
+"LastUpgradeCheck" = "2700";
+"BuildIndependentTargetsInParallel" = "YES";
+"TargetAttributes" = {
+"A0000000000000000000000B" = {
+"CreatedOnToolsVersion" = "16.0";
+};
+};
+};
+"hasScannedForEncodings" = "0";
+"projectRoot" = "";
+"mainGroup" = "A00000000000000000000005";
+};
+"A00000000000000000000007" = {
+"isa" = "PBXGroup";
+"name" = "Products";
+"children" = ("A00000000000000000000004", "96EF7CA24BCC6C706BCFC087");
+"sourceTree" = "<group>";
+};
+"8AB245D673FC4D784071A103" = {
+"fileRef" = "56370345378370A3A338813B";
+"isa" = "PBXBuildFile";
+};
+"F60000000000000000000005" = {
+"path" = "Resources/undercore-waves.json";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "text.json";
+"sourceTree" = "<group>";
+};
+"E30000000000000000000004" = {
+"path" = "Services/NetworkStatusMonitor.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E40000000000000000000009" = {
+"fileRef" = "E30000000000000000000009";
+"isa" = "PBXBuildFile";
+};
+"E40000000000000000000003" = {
+"fileRef" = "E30000000000000000000003";
+"isa" = "PBXBuildFile";
+};
+"A00000000000000000000010" = {
+"isa" = "XCBuildConfiguration";
+"buildSettings" = {
+"CODE_SIGN_ENTITLEMENTS" = "Config/App.entitlements";
+"MARKETING_VERSION" = "0.1";
+"DEVELOPMENT_TEAM" = "5XU62DD2N8";
+"APS_ENVIRONMENT" = "production";
+"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.utilities";
+"PRODUCT_BUNDLE_IDENTIFIER" = "ru.undercore.ios.vpn";
+"INFOPLIST_KEY_CFBundleDisplayName" = "Undercore VPN";
+"TARGETED_DEVICE_FAMILY" = "1,2";
+"CODE_SIGN_STYLE" = "Automatic";
+"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+"SDKROOT" = "iphoneos";
+"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks");
+"SWIFT_VERSION" = "5.0";
+"PRODUCT_NAME" = "$(TARGET_NAME)";
+"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+"APNS_ENVIRONMENT" = "production";
+"CLANG_ENABLE_OBJC_WEAK" = "YES";
+"INFOPLIST_FILE" = "Config/App-Info.plist";
+"GENERATE_INFOPLIST_FILE" = "NO";
+"PRODUCT_MODULE_NAME" = "UndercoreVPN";
+"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) UNDERCORE_VPN";
+};
+"name" = "Release";
+};
+"C20000000000000000000005" = {
+"path" = "Features/Notifications/NotificationsViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"D3FA2426BE100E560EBE1DC9" = {
+"fileRef" = "B3F887F1D9C9A7E89FF94477";
+"isa" = "PBXBuildFile";
+};
+"EE774C423CFC0030304EC9CA" = {
+"path" = "Services/DocumentTransferService.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"1F5BFF14AC928ACBEA3A8A95" = {
+"fileRef" = "E1E23D068517CBC4E87DD74F";
+"isa" = "PBXBuildFile";
+};
+"A0000000000000000000000B" = {
+"buildConfigurationList" = "A0000000000000000000000D";
+"productReference" = "A00000000000000000000004";
+"productType" = "com.apple.product-type.application";
+"packageProductDependencies" = ("B00000000000000000000002", "F60000000000000000000002", "D02BCB906CDCCF2857AC1EC2");
+"productName" = "UndercoreVPN";
+"isa" = "PBXNativeTarget";
+"buildPhases" = ("A00000000000000000000008", "A00000000000000000000009", "A0000000000000000000000A", "20A4251CABAF414A3BC4CADA");
+"dependencies" = ("5702E6E22340E1758969E7AE");
+"name" = "UndercoreVPN";
+"buildRules" = ();
+};
+"0FC32E58BC675A272FFCA1AF" = {
+"path" = "Features/Transfer/TransferViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"A00000000000000000000006" = {
+"path" = "../undercore-ios/Undercore";
+"isa" = "PBXGroup";
+"children" = ("D2000000000000000000000C", "F60000000000000000000005", "F60000000000000000000007", "D2000000000000000000000B", "D2000000000000000000000A", "D20000000000000000000001", "C20000000000000000000005", "C20000000000000000000004", "C10000000000000000000001", "E30000000000000000000001", "E30000000000000000000002", "E30000000000000000000003", "E30000000000000000000009", "E3000000000000000000000A", "E3000000000000000000000B", "E3000000000000000000000C", "E3000000000000000000000D", "E30000000000000000000008", "E30000000000000000000007", "E30000000000000000000006", "E30000000000000000000005", "E30000000000000000000004", "C10000000000000000000002", "C10000000000000000000003", "A00000000000000000000003", "C817D245A48D768A1ADC94F8", "9BB4123567EB25BF6F2B4794", "E1C0B7176178B015A70EA482", "EE204C8E8D4485DF4881A7A0", "5E5F20D84EF787CBFD57D061", "8DE7FA3987D8074AF372BC7D", "FD7A792819EB94B685AC9F6D", "B3F887F1D9C9A7E89FF94477", "AA44220260A696DB4C797187", "A33B1CB4400AF77E905E43DA", "2B674A6250D54C0C7FD86CE2", "56370345378370A3A338813B", "0FC32E58BC675A272FFCA1AF", "5FAFFBD449B27CDA54FAC510", "E1E23D068517CBC4E87DD74F", "EE774C423CFC0030304EC9CA", "963580F4B31CFB82F5A97E34", "AA42FB16612B26762C4EBEAF");
+"sourceTree" = "<group>";
+};
+"5FAFFBD449B27CDA54FAC510" = {
+"path" = "Features/Transfer/TransferViewModel.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"963580F4B31CFB82F5A97E34" = {
+"path" = "Services/SyntheticConfiguration.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"FBB754FFB79117353199E0FC" = {
+"fileRef" = "AA44220260A696DB4C797187";
+"isa" = "PBXBuildFile";
+};
+"E1C0B7176178B015A70EA482" = {
+"path" = "App/AppDelegate.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"F60000000000000000000004" = {
+"fileRef" = "F60000000000000000000005";
+"isa" = "PBXBuildFile";
+};
+"D2000000000000000000000C" = {
+"path" = "Features/Articles/ArticleViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E30000000000000000000003" = {
+"path" = "Features/Articles/ArticleImageHandler.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E30000000000000000000009" = {
+"path" = "Features/Auth/PasswordRecoveryViewModel.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"D20000000000000000000001" = {
+"path" = "App/StartupViewController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E40000000000000000000002" = {
+"fileRef" = "E30000000000000000000002";
+"isa" = "PBXBuildFile";
+};
+"C10000000000000000000005" = {
+"fileRef" = "C20000000000000000000005";
+"isa" = "PBXBuildFile";
+};
+"B00000000000000000000003" = {
+"isa" = "XCLocalSwiftPackageReference";
+"relativePath" = "../undercore-ios/Core";
+};
+"C20000000000000000000004" = {
+"path" = "Features/Notifications/NotificationsViewModel.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"E40000000000000000000008" = {
+"fileRef" = "E30000000000000000000008";
+"isa" = "PBXBuildFile";
+};
+"E4000000000000000000000D" = {
+"fileRef" = "E3000000000000000000000D";
+"isa" = "PBXBuildFile";
+};
+"EE204C8E8D4485DF4881A7A0" = {
+"path" = "DesignSystem/Components.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"A0000000000000000000000A" = {
+"buildActionMask" = "2147483647";
+"isa" = "PBXResourcesBuildPhase";
+"files" = ("C20000000000000000000003", "F60000000000000000000004", "F60000000000000000000006", "F9A77D4C2F4CB04CDA28AD7F");
+"runOnlyForDeploymentPostprocessing" = "0";
+};
+"A00000000000000000000005" = {
+"isa" = "PBXGroup";
+"sourceTree" = "<group>";
+"children" = ("A00000000000000000000006", "A00000000000000000000007", "1F4BC3716C83FC5FCA0D9AE4", "41BF8436A554B6545BEFF7EA", "B0C788498A82027819FC565D", "F6EE27D93930C666716082DE", "4446EDF303AA3EDF711E81C7", "B3EB3FB81438C4B1E7C4A07A");
+};
+"773C18A30BD0FA6919BDACA3" = {
+"fileRef" = "5FAFFBD449B27CDA54FAC510";
+"isa" = "PBXBuildFile";
+};
+"AA42FB16612B26762C4EBEAF" = {
+"path" = "App/PushNotificationsController.swift";
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"1F4BC3716C83FC5FCA0D9AE4" = {
+"isa" = "PBXFileReference";
+"path" = "App/IOSTunnelController.swift";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"1442BEC6E6EE0B94CB04A1D5" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "1F4BC3716C83FC5FCA0D9AE4";
+};
+"41BF8436A554B6545BEFF7EA" = {
+"isa" = "PBXFileReference";
+"path" = "App/IOSTunnelDiagnostics.swift";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"A8293F5C5A11D62A373DB07D" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "41BF8436A554B6545BEFF7EA";
+};
+"B0C788498A82027819FC565D" = {
+"isa" = "PBXFileReference";
+"path" = "App/VPNViewController.swift";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"2ADA1D9C51AE07420CD2BD14" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "B0C788498A82027819FC565D";
+};
+"5A49227B09F0D861A4270350" = {
+"isa" = "XCLocalSwiftPackageReference";
+"relativePath" = "VPNCore";
+};
+"0AF36E944EAB810C0159212E" = {
+"isa" = "XCLocalSwiftPackageReference";
+"relativePath" = ".build-deps/AWGKit";
+};
+"D02BCB906CDCCF2857AC1EC2" = {
+"isa" = "XCSwiftPackageProductDependency";
+"package" = "5A49227B09F0D861A4270350";
+"productName" = "UndercoreVPNCore";
+};
+"C0E5F9760D4537FA840D2421" = {
+"isa" = "PBXBuildFile";
+"productRef" = "D02BCB906CDCCF2857AC1EC2";
+};
+"F18328838F827DBBE3E6DEAA" = {
+"isa" = "PBXSourcesBuildPhase";
+"buildActionMask" = 2147483647;
+"files" = ("B5DED893F2819FE2E5941DBC", "49270907C22D2995A0FD72F7");
+"runOnlyForDeploymentPostprocessing" = 0;
+};
+"636B5565761E65256EF1F57C" = {
+"isa" = "PBXFrameworksBuildPhase";
+"buildActionMask" = 2147483647;
+"files" = ("B90A6FDC47FA4DB9AF6617BA", "247CEA58F5D121330B68DDDC");
+"runOnlyForDeploymentPostprocessing" = 0;
+};
+"F6EE27D93930C666716082DE" = {
+"isa" = "PBXFileReference";
+"path" = "Tunnel/PacketTunnelProvider.swift";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"B5DED893F2819FE2E5941DBC" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "F6EE27D93930C666716082DE";
+};
+"4446EDF303AA3EDF711E81C7" = {
+"isa" = "PBXFileReference";
+"path" = "Tunnel/TunnelReachability.swift";
+"lastKnownFileType" = "sourcecode.swift";
+"sourceTree" = "<group>";
+};
+"49270907C22D2995A0FD72F7" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "4446EDF303AA3EDF711E81C7";
+};
+"8B2C1476EF4A10AA3F1E4AB9" = {
+"isa" = "XCBuildConfiguration";
+"name" = "Debug";
+"buildSettings" = {
+"PRODUCT_NAME" = "UndercoreVPNTunnel";
+"PRODUCT_MODULE_NAME" = "UndercoreVPNTunnel";
+"PRODUCT_BUNDLE_IDENTIFIER" = "ru.undercore.ios.vpn.tunnel";
+"CODE_SIGN_STYLE" = "Automatic";
+"DEVELOPMENT_TEAM" = "5XU62DD2N8";
+"CODE_SIGN_ENTITLEMENTS" = "Config/Tunnel.entitlements";
+"INFOPLIST_FILE" = "Config/Tunnel-Info.plist";
+"GENERATE_INFOPLIST_FILE" = "NO";
+"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+"SDKROOT" = "iphoneos";
+"TARGETED_DEVICE_FAMILY" = "1,2";
+"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+"SWIFT_VERSION" = "5.0";
+"SKIP_INSTALL" = "YES";
+"APPLICATION_EXTENSION_API_ONLY" = "YES";
+"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+"LIBRARY_SEARCH_PATHS" = ("$(inherited)", "$(PROJECT_DIR)/.build-deps/lib/$(PLATFORM_NAME)");
+"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks");
+};
+};
+"1F72A82D67F77ADA4A96A614" = {
+"isa" = "XCBuildConfiguration";
+"name" = "Release";
+"buildSettings" = {
+"PRODUCT_NAME" = "UndercoreVPNTunnel";
+"PRODUCT_MODULE_NAME" = "UndercoreVPNTunnel";
+"PRODUCT_BUNDLE_IDENTIFIER" = "ru.undercore.ios.vpn.tunnel";
+"CODE_SIGN_STYLE" = "Automatic";
+"DEVELOPMENT_TEAM" = "5XU62DD2N8";
+"CODE_SIGN_ENTITLEMENTS" = "Config/Tunnel.entitlements";
+"INFOPLIST_FILE" = "Config/Tunnel-Info.plist";
+"GENERATE_INFOPLIST_FILE" = "NO";
+"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+"SDKROOT" = "iphoneos";
+"TARGETED_DEVICE_FAMILY" = "1,2";
+"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+"SWIFT_VERSION" = "5.0";
+"SKIP_INSTALL" = "YES";
+"APPLICATION_EXTENSION_API_ONLY" = "YES";
+"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+"LIBRARY_SEARCH_PATHS" = ("$(inherited)", "$(PROJECT_DIR)/.build-deps/lib/$(PLATFORM_NAME)");
+"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks");
+};
+};
+"17F10A577221B4581C4B7897" = {
+"isa" = "XCConfigurationList";
+"buildConfigurations" = ("8B2C1476EF4A10AA3F1E4AB9", "1F72A82D67F77ADA4A96A614");
+"defaultConfigurationIsVisible" = 0;
+"defaultConfigurationName" = "Debug";
+};
+"96EF7CA24BCC6C706BCFC087" = {
+"isa" = "PBXFileReference";
+"explicitFileType" = "wrapper.app-extension";
+"path" = "UndercoreVPNTunnel.appex";
+"sourceTree" = "BUILT_PRODUCTS_DIR";
+};
+"8C5A3969CBFD641050CBEDD9" = {
+"isa" = "PBXNativeTarget";
+"name" = "UndercoreVPNTunnel";
+"productName" = "UndercoreVPNTunnel";
+"productReference" = "96EF7CA24BCC6C706BCFC087";
+"productType" = "com.apple.product-type.app-extension";
+"buildConfigurationList" = "17F10A577221B4581C4B7897";
+"buildPhases" = ("F18328838F827DBBE3E6DEAA", "636B5565761E65256EF1F57C");
+"buildRules" = ();
+"dependencies" = ();
+"packageProductDependencies" = ("AC31CD2B700E82E838CF7959", "071501ECE201B2C512DBDA79");
+};
+"AC31CD2B700E82E838CF7959" = {
+"isa" = "XCSwiftPackageProductDependency";
+"package" = "5A49227B09F0D861A4270350";
+"productName" = "UndercoreVPNCore";
+};
+"B90A6FDC47FA4DB9AF6617BA" = {
+"isa" = "PBXBuildFile";
+"productRef" = "AC31CD2B700E82E838CF7959";
+};
+"071501ECE201B2C512DBDA79" = {
+"isa" = "XCSwiftPackageProductDependency";
+"package" = "0AF36E944EAB810C0159212E";
+"productName" = "WireGuardKit";
+};
+"247CEA58F5D121330B68DDDC" = {
+"isa" = "PBXBuildFile";
+"productRef" = "071501ECE201B2C512DBDA79";
+};
+"AD4AAC080415CB4E2D7B3133" = {
+"isa" = "PBXContainerItemProxy";
+"containerPortal" = "A0000000000000000000000C";
+"proxyType" = 1;
+"remoteGlobalIDString" = "8C5A3969CBFD641050CBEDD9";
+"remoteInfo" = "UndercoreVPNTunnel";
+};
+"5702E6E22340E1758969E7AE" = {
+"isa" = "PBXTargetDependency";
+"target" = "8C5A3969CBFD641050CBEDD9";
+"targetProxy" = "AD4AAC080415CB4E2D7B3133";
+};
+"A4ED3D3994737CA2AAAB1BF4" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "96EF7CA24BCC6C706BCFC087";
+"settings" = {
+"ATTRIBUTES" = ("RemoveHeadersOnCopy");
+};
+};
+"20A4251CABAF414A3BC4CADA" = {
+"isa" = "PBXCopyFilesBuildPhase";
+"buildActionMask" = 2147483647;
+"dstPath" = "";
+"dstSubfolderSpec" = 13;
+"files" = ("A4ED3D3994737CA2AAAB1BF4");
+"name" = "Embed App Extensions";
+"runOnlyForDeploymentPostprocessing" = 0;
+};
+"B3EB3FB81438C4B1E7C4A07A" = {
+"isa" = "PBXFileReference";
+"path" = "Config/ThirdPartyNotices.txt";
+"lastKnownFileType" = "text";
+"sourceTree" = "<group>";
+};
+"F9A77D4C2F4CB04CDA28AD7F" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "B3EB3FB81438C4B1E7C4A07A";
+};
+};
+"rootObject" = "A0000000000000000000000C";
+}

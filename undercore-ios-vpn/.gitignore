@@ -1,0 +1,7 @@
+.build-deps/
+DerivedData/
+DerivedData-Simulator/
+VPNCore/.build/
+*.xcuserstate
+xcuserdata/
+.DS_Store
